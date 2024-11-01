@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   },
   basePath: '/next_app_layout', // Replace 'project-name' with your repository name
   assetPrefix: '/next_app_layout', // Ensures assets are loaded from the correct path
+  trailingSlash: true,
 };
 
 export default nextConfig;
